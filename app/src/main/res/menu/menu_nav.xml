@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<item-->
+        <!--android:title="Dashboard"-->
+        <!--android:icon="@drawable/ic_dashboard"-->
+        <!--/>-->
+
+    <item
+        android:id="@+id/menu_history"
+        android:title="Claim"
+        android:icon="@drawable/ic_claim_history"
+        />
+
+    <item
+        android:id="@+id/menu_vehicles"
+        android:title="Vehicles"
+        android:icon="@drawable/ic_vehicle"
+        />
+
+    <item
+        android:id="@+id/menu_user"
+        android:title="My Info"
+        android:icon="@drawable/ic_person"
+        />
+
+</menu>

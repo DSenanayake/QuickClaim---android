@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="@dimen/cardview_default_elevation"
+    android:layout_marginTop="@dimen/card_view_margin"
+    android:layout_marginLeft="@dimen/card_view_margin"
+    android:layout_marginRight="@dimen/card_view_margin"
+    app:cardCornerRadius="@dimen/cardview_default_radius">
+
+    <!--vehicle list item layout-->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="96dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/toyota_crown"
+            android:id="@+id/img_back"/>
+        <TextView
+            android:padding="@dimen/activity_vertical_margin"
+            android:id="@+id/txt_title"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="32sp"
+            android:text="Reg_ID"
+            android:textAllCaps="true"
+            android:background="@color/black_overlay"/>
+        <TextView
+            android:id="@+id/txt_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vehicle Description"
+            android:textColor="@color/textColorPrimary"
+            android:layout_gravity="bottom|right"
+            android:background="@color/colorAccent"
+            android:textStyle="bold"
+            android:padding="4dp"
+            android:gravity="center"
+            android:textAllCaps="true"
+            />
+    </FrameLayout>
+
+</android.support.v7.widget.CardView>
